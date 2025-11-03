@@ -1,9 +1,6 @@
 > An end-to-end automated ETL pipeline for real-time financial market data analysis with Apache Airflow orchestration, Google BigQuery data warehousing, and Streamlit visualization.
 
-![Python](https://img.shields.io/badge/Python-3.9+-blue.svg)
-![Airflow](https://img.shields.io/badge/Airflow-2.7.3-red.svg)
-![Docker](https://img.shields.io/badge/Docker-Compose-blue.svg)
-![License](https://img.shields.io/badge/License-MIT-green.svg)
+
 
 ##  Project Overview
 
