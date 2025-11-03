@@ -1,0 +1,31 @@
+# config/config.yaml
+stocks:
+  symbols:
+    - AAPL
+    - GOOGL
+    - MSFT
+    - TSLA
+    - AMZN
+  
+crypto:
+  symbols:
+    - bitcoin
+    - ethereum
+    - cardano
+    - solana
+
+database:
+  host: localhost
+  port: 5432
+  database: portfolio_db
+  user: priyanka
+  password: ''
+
+bigquery:
+  project_id: your-project-id
+  dataset: financial_data
+  tables:
+    stock_prices: stock_prices
+    crypto_prices: crypto_prices
+    news: market_news
+    portfolio: user_portfolio

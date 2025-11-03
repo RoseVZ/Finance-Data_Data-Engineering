@@ -1,0 +1,43 @@
+# Environment variables (SECRETS!)
+.env
+*.env
+
+# Credentials (NEVER UPLOAD!)
+config/credentials.json
+*.json
+!requirements.txt
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+venv/
+env/
+*.egg-info/
+
+# Data files
+data/temp/
+data/*.csv
+*.csv
+
+# Logs
+logs/
+*.log
+airflow.cfg
+
+# OS
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Docker
+postgres-airflow-volume/
+
+# Temporary files
+/tmp/
+*.swp
+*.swo
+*~
